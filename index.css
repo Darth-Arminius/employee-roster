@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.inner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    border: solid black 1px;
+}
+
+.row {
+    border: solid black 1px;
+}
+
+.inner-row {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.card {
+    border: solid black 1px;
+}
